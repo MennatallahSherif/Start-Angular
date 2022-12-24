@@ -1,0 +1,44 @@
+#footer1{
+    background-color: #2C3E50;
+    color: white;
+    position: relative;
+    padding-top: 5px;
+}
+
+p{
+    font-size: 20px;
+}
+
+li{
+   display: inline-block;
+    padding: 15px;
+    border: 1px solid white;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+}
+.sp{
+    border: none;
+}
+.sp:hover{
+    background-color: transparent;
+    border: none;
+}
+li:hover{
+    background-color: #615785;
+}
+
+
+#footer2{
+    height: 60px;
+    background-color: #1A252F;
+    padding-top: 15px;
+    text-align: center;
+}

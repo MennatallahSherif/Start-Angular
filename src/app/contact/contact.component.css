@@ -1,0 +1,72 @@
+#contact{
+    height: 90vh;
+}
+h1{
+    font-size: 50px;
+    color:#2C3E50 ;
+}
+
+.star{
+    position: relative;
+}
+.star::after{
+    content: "";
+    width: 120px;
+    background-color: #2C3E50;
+    height: 3px;
+    position: absolute;
+    right: 37%;
+    top: 52%;
+
+}
+.star::before{
+    content: "";
+    width: 120px;
+    background-color: #2C3E50;
+    height: 3px;
+    position: absolute;
+    left: 37%;
+    top: 52%;
+
+}
+
+input{
+    border: none;
+    border-bottom: 1px solid #2C3E50;
+}
+textarea{
+    border: none;
+    border-bottom: 1px solid #2C3E50;
+}
+textarea:focus, input:focus{
+    box-shadow: none;
+    border-bottom: 1px solid #2C3E50;
+}
+
+
+
+@media screen and (max-width:568px){
+    .star::before{
+        content: "";
+        width: 100px;
+        background-color: #2C3E50;
+        height: 3px;
+        position: absolute;
+        left: 25%;
+        top: 52%;
+    
+    }
+    .star::after{
+        content: "";
+        width: 100px;
+        background-color: #2C3E50;
+        height: 3px;
+        position: absolute;
+        right: 25%;
+        top: 52%;}
+        h1{
+            font-size: 40px;
+           
+        }    
+
+}
